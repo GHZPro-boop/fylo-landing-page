@@ -12,8 +12,8 @@ export const Section2 = () => {
                 <p className="text-sm font-thin">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
                 <p className="text-sm font-thin">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
                 <div className="flex gap-1">
-                    <p className="text-sm font-thin">See how Fylo works</p>
-                    <img src={iconarrow} alt="Icon Arrow" />
+                    <p className="text-sm font-thin text-green-300">See how Fylo works</p>
+                    <img src={iconarrow} alt="Icon Arrow" className="h-5 w-5" />
                 </div>
                 <div className="w-32 h-[1px] bg-green-300">
                 </div>

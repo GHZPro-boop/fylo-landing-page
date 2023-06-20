@@ -38,7 +38,7 @@ export const Footer = () => {
                         <p className="hover:underline cursor-pointer">Privacy</p>
                     </div>
                 </div>
-                <div>
+                <div className="flex flex-row gap-5">
                     {/* Facebook */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
