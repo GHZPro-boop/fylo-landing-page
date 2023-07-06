@@ -8,24 +8,24 @@ import emailIcon from "../assets/icon-email.svg"
 export const Footer = () => {
 
     return (
-        <div className="bg-[#080810] text-white h-full pt-32 px-8 pb-5 text-sm font-thin">
-            <img src={logo} alt="Company Logo" className="h-10" />
+        <div className="bg-[#080810] text-white h-full pt-32 px-8 pb-14 text-sm font-thin">
+            <img src={logo} alt="Company Logo" className="h-10 mb-8" />
             <div className="flex flex-col lg:flex-row mt-10 gap-4">
                 <div className="flex gap-6">
                     <img src={locationIcon} className="h-3 w-3" />
                     <p className="w-[40%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
-                <div className="flex lg:flex-col gap-4 relative -left-[30%]">
-                    <div className="flex gap-6">
+                <div className="flex flex-col lg:flex-col sm:mx[10%] gap-4 lg:relative -left-[30%]">
+                    <div className="flex flex-row gap-6">
                         <img src={phoneIcon} className="h-3 w-3" />
                         <p>+1-543-123-4567</p>
                     </div>
-                    <div className="flex gap-6">
+                    <div className="flex flex-row gap-6">
                         <img src={emailIcon} className="h-3 w-3" />
                         <p>example@fylo.com</p>
                     </div>
                 </div>
-                <div className="flex flex-col lg:flex-row gap-7 relative -left-[5%]">
+                <div className="flex flex-col lg:flex-row gap-7 text-center lg:relative -left-[5%]">
                     <div className="flex flex-col gap-3">
                         <p className="hover:underline cursor-pointer">About Us</p>
                         <p className="hover:underline cursor-pointer">Jobs</p>
@@ -38,7 +38,7 @@ export const Footer = () => {
                         <p className="hover:underline cursor-pointer">Privacy</p>
                     </div>
                 </div>
-                <div className="flex flex-row gap-5">
+                <div className="flex justify-center flex-row gap-5">
                     {/* Facebook */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
